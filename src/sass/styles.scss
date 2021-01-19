@@ -1,0 +1,51 @@
+body {
+  font-size: 18px;
+  font-weight: 400;
+  // line-height: 1.2;
+  background-color: bisque;
+}
+ul {
+  margin: 0;
+}
+
+.search-country {
+  display: block;
+  margin: 30px auto;
+  font-size: 24px;
+}
+.result {
+  display: block;
+  margin: 0 20px;
+}
+.header {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container .list {
+  // display: block;
+  margin-right: 30px;
+}
+.list span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.container .list > li {
+  display: block;
+  padding: 20px 0;
+}
+.languages {
+  list-style-type: disc;
+}
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
