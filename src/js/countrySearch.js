@@ -13,7 +13,7 @@ const debouncedCallback = _.debounce(event => {
       // console.log(data.length);
       updateCountriesMarkup(data);
     })
-    .catch(error => {
+    .catch(() => {
       // resultRef.innerHTML = '';
       // notice(noticeOptions);
     });
